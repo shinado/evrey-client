@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.trademe.evrey.module.wallet" >
+
+    <uses-sdk android:minSdkVersion="23" />
+
+    <application>
+        <activity
+            android:name="com.trademe.evrey.module.wallet.WalletLoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module" // 允许使用 import/export
+  },
+  "plugins": ["@typescript-eslint", "react-hooks", "jest"],
+  "extends": [
+    "@react-native",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jest/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    // 你可以在这里添加或覆盖任何规则
+  }
+}

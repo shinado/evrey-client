@@ -1,0 +1,114 @@
+{
+  "expo": {
+    "name": "Evrey",
+    "slug": "evrey",
+    "version": "2.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon_story.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "fonts": [
+      "./assets/fonts/Manrope-Regular.ttf",
+      "./assets/fonts/Manrope-Medium.ttf",
+      "./assets/fonts/Manrope-SemiBold.ttf",
+      "./assets/fonts/Manrope-Bold.ttf",
+      "./assets/fonts/DingTalk-JinBuTi.ttf"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "package": "com.trademe.evrey",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "associatedDomains": [
+        "applinks:www.evrey.fun"
+      ],
+      "bundleIdentifier": "com.trademe.evrey",
+      "entitlements": {
+        "aps-environment": "production"
+      },
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "CFBundleURLSchemes": [
+          "evrey",
+          "story",
+          "https"
+        ]
+      },
+      "buildNumber": "1"
+    },
+    "android": {
+      "icon": "./assets/icon_story.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.trademe.evrey",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "www.evrey.fun",
+              "pathPrefix": "/"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "permissions": [
+        "ACCESS_NETWORK_STATE",
+        "INTERNET"
+      ],
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/icon_story.png",
+      "bundler": "metro"
+    },
+    "scheme": "evrey",
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-localization",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon_story.png"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7764c4f6-68a0-4246-99bc-69a2c265e8b8"
+      }
+    },
+    "notification": {
+      "icon": "./assets/icon_story.png",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Evrey"
+    }
+  }
+}
+  

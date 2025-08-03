@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.momo.abc",
+      "sha256_cert_fingerprints": [
+        "17:C2:7A:5B:8A:5B:90:02:94:85:D6:7B:F6:F1:8E:EB:DA:69:B0:3E:11:DB:47:93:E9:56:F4:C7:BC:A3:96:1C"
+      ]
+    }
+  }
+]

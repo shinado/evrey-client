@@ -1,0 +1,14 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="interface-alert-warning-circle--warning-alert-frame-exclamation-caution-circle--Streamline-Core" clip-path="url(#clip0_436_25044)">
+<g id="Group">
+<path id="Vector" d="M7 13.5C10.5899 13.5 13.5 10.5899 13.5 7C13.5 3.41015 10.5899 0.5 7 0.5C3.41015 0.5 0.5 3.41015 0.5 7C0.5 10.5899 3.41015 13.5 7 13.5Z" stroke="#4C4D50" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M7 3.5V7.14685" stroke="#4C4D50" stroke-linecap="square" stroke-linejoin="round"/>
+<path id="Vector_3" d="M6.99939 10.2947C7.31079 10.2947 7.56323 10.0422 7.56323 9.73083C7.56323 9.41943 7.31079 9.16699 6.99939 9.16699C6.68799 9.16699 6.43555 9.41943 6.43555 9.73083C6.43555 10.0422 6.68799 10.2947 6.99939 10.2947Z" fill="#4C4D50"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_436_25044">
+<rect width="14" height="14" fill="white"/>
+</clipPath>
+</defs>
+</svg>

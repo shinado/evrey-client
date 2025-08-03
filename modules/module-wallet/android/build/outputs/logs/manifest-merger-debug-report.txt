@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:2:52-93
+		INJECTED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:3:5-5:19
+activity#com.trademe.evrey.module.wallet.WalletLoginActivity
+ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:4:9-81
+	android:exported
+		ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:4:55-79
+	android:name
+		ADDED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml:4:19-54
+uses-sdk
+INJECTED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml
+INJECTED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/songyingjie/Documents/evrey/moonshot-client/modules/module-wallet/android/src/main/AndroidManifest.xml
