@@ -1,4 +1,6 @@
 # Evrey app
+Website: https://www.evrey.fun/
+X: https://x.com/evreydotfun
 
 ```shell
 # build apk and install
