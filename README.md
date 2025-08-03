@@ -1,21 +1,15 @@
 # Evrey app
 
-## 开发备注
-
 ```shell
-# 构建debug版本apk并安装，有更新native代码时，需要重新构建
+# build apk and install
 npm run apk-install 
 
-# 启动 Metro
+# start Metro
 npx expo start -c
-a # 在android设备上运行apk
+a # run on Android devices
 ```
 
-Turnkey 文档：https://esg9isipgo53.sg.larksuite.com/wiki/EuVMwo1SaiIxREk1beklYoszgYe?from=from_copylink
-
-scripts/node-utils 中为测试solana相关接口的node脚本。
-
-web 端测试：
+test on web ：
 ```shell
 npx expo start --web   
 ```
@@ -209,12 +203,11 @@ $ rm -rf ios
 $ npm run ios
 ```
 
-自定义字体显示需要
-
+To change fonts
 ```
 npx react-native link
 fontFamily: 'DingTalk-JinBuTi' 
-ios需要更改info.plist
+ios: info.plist
 
 <key>UIAppFonts</key>
 <array>
